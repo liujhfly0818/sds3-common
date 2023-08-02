@@ -1,18 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <OneMaterial :oneMaterial="initObj[$route.query.casno]"/>
   </div>
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import { useRoute } from 'vue-router';
 import { storeToRefs } from "pinia";
 import { useUserStore } from "../stores/parser";
 const useStore = useUserStore();
-// const { initJson } = storeToRefs(useStore)
-// console.log(`AllView ---> initJson = ${JSON.stringify(initJson)}`)
+const { initObj } = storeToRefs(useStore)
 
-// import OneMaterial from '../components/OneMaterial.vue'
+import OneMaterial from '../components/OneMaterial.vue'
+
 
 </script>
 

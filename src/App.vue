@@ -9,8 +9,7 @@ import { storeToRefs } from "pinia";
 import { useUserStore } from "./stores/parser";
 const useStore = useUserStore();
 // console.log(`App ---> ${JSON.stringify(useStore)}`)
-const { loginName, loginTime, age } = storeToRefs(useStore);
-// console.log(`App ---> initJson = ${JSON.stringify(initJson)}`)
+const { loginName, loginTime, age, initObjSimple } = storeToRefs(useStore);
 
 const name = ref("");
 
@@ -34,6 +33,7 @@ const resetSToreValue = () => {
 const setNameValue = () => {
   useStore.setName(name.value);
 };
+
 </script>
 
 <template>
@@ -44,31 +44,34 @@ const setNameValue = () => {
       <h5 class="header">元素列表</h5>
       <el-scrollbar height="100vh" class="scrollbar">
         <div class="menu-list">
-          <div class="menu-item" v-for="(ele, idx) in useStore.initJson" :key="idx">
+          <div
+            class="menu-item"
+            v-for="(ele, idx) in initObjSimple"
+            :key="idx"
+            :style="{backgroundColor: $route.query.casno == ele.CASNo ? '#eee' : '#fff'}"
+          >
             <el-row>
               <el-col :span="14">
                 <el-text class="order">{{ idx + 1 }}. </el-text>
                 <el-text class="casno" type="danger">{{ ele.CASNo }}</el-text>
               </el-col>
-              <el-col :span="10" class="pageno" style="text-right: right;">
-                <el-text type="info" size="small">PageNo:{{ ele.pageNo }}</el-text>
+              <el-col :span="10" class="pageno" style="text-right: right">
+                <el-text type="info" size="small"
+                  >PageNo:{{ ele.pageNo }}</el-text
+                >
               </el-col>
             </el-row>
             <el-row>
               <el-col :span="24">
-                <RouterLink to="/about">
-                  <el-text class="name" type="primary" truncated>{{ ele.material }} </el-text>
+                <RouterLink :to="{path: '/about',  query: {casno: ele.CASNo}}">
+                  <el-text class="name" type="primary" truncated
+                    >{{ ele.material }}
+                  </el-text>
                 </RouterLink>
               </el-col>
             </el-row>
-            <div>
-
-
-
-            </div>
-            <div>
-
-            </div>
+            <div></div>
+            <div></div>
           </div>
         </div>
 
@@ -161,12 +164,12 @@ const setNameValue = () => {
 }
 
 .menu-list {
-  padding-right: .4rem;
+  padding-right: 0.4rem;
   border-right: 1px solid var(--vt-c-blue);
 }
 
 .menu-item {
-  padding: .4rem .5rem;
+  padding: 0.4rem 0.5rem;
   border-bottom: 1px dashed #eee;
 
   .name {

@@ -14,13 +14,12 @@ onMounted(() => {
   <el-container class="material-wrap">
     <el-header class="header">
       <el-row>
-        <el-col :span="6" >
-          <el-text class="casno" type="danger">CASNo:{{ oneMaterial.CASNo }}</el-text>
-        </el-col>
-        <el-col :span="12">
+        <el-col :span="18">
+          <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text>
+          <el-text class="casno" type="danger" :style="{paddingRight: '.5rem'}">CASNo:{{ oneMaterial.CASNo }}</el-text>
           <el-text type="primary" class="name">{{ oneMaterial.material }}</el-text>
         </el-col>
-        <el-col :span="6">
+        <el-col :span="6" :style="{textAlign: 'right'}">
           <el-text type="info" class="pageno">PageNo:{{ oneMaterial.pageNo }}</el-text>
         </el-col>
       </el-row>
@@ -74,13 +73,13 @@ onMounted(() => {
   .name,
   .pageno {
     line-height: var(--el-header-height);
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
   }
 }
 
 .section-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--vt-c-gray-dark-3);
   text-align: center;
   padding:  1rem .5rem;
@@ -88,7 +87,7 @@ onMounted(() => {
 }
 
 .section-label {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bold;
   color: var(--vt-c-blue);
 }
