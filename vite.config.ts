@@ -24,8 +24,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'vue3-pro',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    assetsDir: './'
   }
 })
