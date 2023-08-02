@@ -9,30 +9,7 @@ import { storeToRefs } from "pinia";
 import { useUserStore } from "./stores/parser";
 const useStore = useUserStore();
 // console.log(`App ---> ${JSON.stringify(useStore)}`)
-const { loginName, loginTime, age, initObjSimple } = storeToRefs(useStore);
-
-const name = ref("");
-
-const changeStoreValue = () => {
-  console.log("passing");
-  useStore.loginName = "Jim";
-  useStore.age = 10;
-};
-
-const patchStoreValue = () => {
-  useStore.$patch({
-    loginName: "mary",
-    age: 20,
-  });
-};
-
-const resetSToreValue = () => {
-  useStore.$reset();
-};
-
-const setNameValue = () => {
-  useStore.setName(name.value);
-};
+const { initObjSimple } = storeToRefs(useStore);
 
 </script>
 
@@ -42,7 +19,7 @@ const setNameValue = () => {
 
     <el-aside class="layout-aside">
       <h5 class="header">元素列表</h5>
-      <el-scrollbar height="100vh" class="scrollbar">
+      <el-scrollbar class="scrollbar">
         <div class="menu-list">
           <div
             class="menu-item"
@@ -50,10 +27,11 @@ const setNameValue = () => {
             :key="idx"
             :style="{backgroundColor: $route.query.casno == ele.CASNo ? '#eee' : '#fff'}"
           >
+          <RouterLink :to="{path: '/about',  query: {casno: ele.CASNo}}"> 
             <el-row>
               <el-col :span="14">
                 <el-text class="order">{{ idx + 1 }}. </el-text>
-                <el-text class="casno" type="danger">{{ ele.CASNo }}</el-text>
+                <el-text class="casno" type="danger" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
@@ -63,35 +41,15 @@ const setNameValue = () => {
             </el-row>
             <el-row>
               <el-col :span="24">
-                <RouterLink :to="{path: '/about',  query: {casno: ele.CASNo}}">
+                
                   <el-text class="name" type="primary" truncated
                     >{{ ele.material }}
                   </el-text>
-                </RouterLink>
+                
               </el-col>
             </el-row>
-            <div></div>
-            <div></div>
+          </RouterLink>
           </div>
-        </div>
-
-        <RouterLink to="/">All</RouterLink>
-        <RouterLink to="/home">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-
-        <h4>{{ loginName }}</h4>
-        <h4>{{ loginTime }}</h4>
-        <h4>{{ age }}</h4>
-        <el-button @click="changeStoreValue">更新store的value</el-button>
-        <el-button @click="patchStoreValue">批量更改store的value</el-button>
-        <el-button @click="resetSToreValue">重置store的value</el-button>
-        <div>
-          <el-text>{{ useStore.completeName }}</el-text>
-          <div>{{ useStore.otherGetter }}</div>
-        </div>
-        <div>
-          <el-input type="text" v-model="name" id="" />
-          <el-button @click="setNameValue">设置名字</el-button>
         </div>
       </el-scrollbar>
     </el-aside>
@@ -109,6 +67,7 @@ const setNameValue = () => {
         </el-scrollbar>
       </el-main>
     </el-container>
+    <div class="footer">南京力恒科技版权所有</div>
   </el-container>
 </template>
 
@@ -124,6 +83,7 @@ const setNameValue = () => {
 
   .scrollbar {
     height: calc(100% - 50px);
+    padding-bottom: 3rem;
   }
 
   .header {
@@ -159,6 +119,7 @@ const setNameValue = () => {
 
     .scrollbar {
       height: 100%;
+      padding-bottom: 3rem;
     }
   }
 }
@@ -179,5 +140,18 @@ const setNameValue = () => {
   .pageno {
     text-align: right;
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  background-color: var(--vt-c-blue);
+  text-align: center;
+  font-size: .6rem;
+  color: #fff;
+  line-height: 2;
 }
 </style>

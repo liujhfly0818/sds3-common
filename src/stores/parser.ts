@@ -8,32 +8,15 @@ export const useUserStore = defineStore('parse', {
         return {
             initObj: initObj,
             initObjSimple: initObjSimple,
-            initCasno: '50-00-0',
-            currentMaterial: {},
-            loginName: 'Kim',
-            loginTime: new Date(),
-            age: 18
+            initCasno: '50-00-0'
         }
     },
 
     getters: {
-        completeName(state) {
-            return `name is ${state.loginName}`
-        },
 
-        otherGetter() {
-            return this.completeName + 'ShowOther'
-        }
     },
 
     actions: {
-        setName(name: string) {
-            this.loginName = name
-        },
-
-        setCurrentMaterial(info: object) {
-            this.currentMaterial = info
-        }
     },
 
     persist: {
