@@ -33,24 +33,29 @@ onMounted(() => {
         </div>
         <div v-if="(typeof item.content == 'object')">
           <div v-for="(section, idx) in item.content" :key="idx">
-            <span class="section-label">{{ section.title }} : </span>
-            <span v-if="(typeof section.value == 'string')">
-              <span>{{ section.value }}</span>
-            </span>
+            <p class="paragraph">
+              <span class="section-label">{{ section.title }} : </span>
+              <span v-if="(typeof section.value == 'string')">
+                <span>{{ section.value }}</span>
+              </span>
+            </p>
+           
             <div v-if="(typeof section.value == 'object')">
               <div v-for="(subSection, subIdx) in section.value" :key="subIdx">
-                <span class="sub-label">{{ subSection.title }} : </span>
-                <span v-if="(typeof subSection.value == 'string')">
-                  <span>{{ subSection.value }}</span>
-                </span>
-                <span v-if="(typeof subSection.value == 'object')">
-                  <span v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx">
+                <p class="paragraph">
+                  <span class="sub-label">{{ subSection.title }} : </span>
+                  <span v-if="(typeof subSection.value == 'string')">
+                    <span>{{ subSection.value }}</span>
+                  </span>
+                </p>
+                <p v-if="(typeof subSection.value == 'object')">
+                  <p v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx"  class="paragraph">
                     <span class="sub-sub-label">{{ subsubSection.title }} : </span>
                     <span v-if="(typeof subsubSection.value == 'string')">
                       <span>{{ subsubSection.value }}</span>
                     </span>
-                  </span>
-                </span>
+                  </p>
+                </p>
               </div>
             </div>
           </div>
@@ -102,6 +107,11 @@ onMounted(() => {
   font-weight: bold;
   color: #333;
   padding-left: 3rem;
+}
+
+.paragraph {
+  text-indent: -2em;
+  padding-left: 2em;
 }
 
 @media (min-width: 1024px) {

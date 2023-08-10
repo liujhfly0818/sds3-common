@@ -30,8 +30,8 @@ const { initObjSimple } = storeToRefs(useStore);
           <RouterLink :to="{path: '/about',  query: {casno: ele.CASNo}}"> 
             <el-row>
               <el-col :span="14">
-                <el-text class="order">{{ idx + 1 }}. </el-text>
-                <el-text class="casno" type="danger" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
+                <el-text class="order" :type="ele.checked ? 'success' : ''">{{ idx + 1 }}. </el-text>
+                <el-text class="casno" :type="ele.checked ? 'success' : 'danger'" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
