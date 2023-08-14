@@ -3,9 +3,6 @@ import { storeToRefs } from "pinia";
 import { useUserStore } from "../stores/parser";
 const useStore = useUserStore();
 const { initObj, initCasno } = storeToRefs(useStore)
-let parserObj = {};
-
-
 
 import OneMaterial from '../components/OneMaterial.vue'
 
