@@ -25,9 +25,9 @@ const { initObjSimple } = storeToRefs(useStore);
             class="menu-item"
             v-for="(ele, idx) in initObjSimple"
             :key="idx"
-            :style="{backgroundColor: $route.query.casno == ele.CASNo ? '#eee' : '#fff'}"
+            :style="{backgroundColor: $route.query.key == ele.key ? '#eee' : '#fff'}"
           >
-          <RouterLink :to="{path: '/about',  query: {casno: ele.CASNo}}"> 
+          <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
             <el-row>
               <el-col :span="14">
                 <el-text class="order" :type="ele.checked ? 'success' : ''">{{ idx + 1 }}. </el-text>

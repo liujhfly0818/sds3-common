@@ -1,6 +1,6 @@
 <template>
   <div>
-    <OneMaterial :oneMaterial="initObj[$route.query.casno]"/>
+    <OneMaterial :oneMaterial="initObj[$route.query.key]"/>
   </div>
 </template>
 

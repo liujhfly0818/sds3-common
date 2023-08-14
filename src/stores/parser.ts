@@ -8,7 +8,7 @@ export const useUserStore = defineStore('parse', {
         return {
             initObj: initObj,
             initObjSimple: initObjSimple,
-            initCasno: '7664-41-7'
+            initCasno: '7664417&1'
         }
     },
 
