@@ -1,4 +1,4 @@
-[{
+let simpleInitByCasnoArr = [{
 	"CASNoKey": 50000,
 	"CASNo": "50-00-0",
 	"material": "甲醛溶液",
@@ -10077,4 +10077,4 @@
 	"pageNo": "1818",
 	"pageNoKey": 1818,
 	"key": "68476857&1818"
-}]
+}];

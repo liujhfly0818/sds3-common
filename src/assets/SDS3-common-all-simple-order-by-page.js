@@ -1,4 +1,4 @@
-[{
+let simpleInitByPageArr = [{
 	"CASNoKey": 7664417,
 	"CASNo": "7664-41-7",
 	"material": "氨",
@@ -10077,4 +10077,4 @@
 	"checked": false,
 	"pageNoKey": 2037,
 	"key": "135988&2037"
-}]
+}];
