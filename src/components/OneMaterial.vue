@@ -15,9 +15,9 @@ onMounted(() => {
     <el-header class="header">
       <el-row>
         <el-col :span="18">
-          <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text>
-          <el-text class="casno" type="danger" :style="{paddingRight: '.5rem'}">CASNo:{{ oneMaterial.CASNo }}</el-text>
-          <el-text type="primary" class="name">{{ oneMaterial.material }}</el-text>
+          <!-- <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text> -->
+          <el-text class="casno" type="danger" size="large" :style="{paddingRight: '1rem'}">CASNo. ： {{ oneMaterial.CASNo }}</el-text>
+          <el-text type="primary" class="name" size="large">化学品： {{ oneMaterial.material }}</el-text>
         </el-col>
         <el-col :span="6" :style="{textAlign: 'right'}">
           <el-text type="info" class="pageno">PageNo:{{ oneMaterial.pageNo }}</el-text>
@@ -70,7 +70,7 @@ onMounted(() => {
 
   .header {
     background-color: #f9f9f9;
-    border-top: 3px double var(--vt-c-blue);
+    // border-top: 3px double var(--vt-c-blue);
     border-bottom: 1px solid #eee;
   }
 

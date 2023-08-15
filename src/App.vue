@@ -30,22 +30,22 @@ const { initObjSimple } = storeToRefs(useStore);
           <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
             <el-row>
               <el-col :span="14">
-                <el-text class="order" :type="ele.checked ? 'success' : ''">{{ idx + 1 }}. </el-text>
+                <el-text type="info" class="order" :type="ele.checked ? 'success' : ''">{{ idx + 1 }}. </el-text>
                 <el-text class="casno" :type="ele.checked ? 'success' : 'danger'" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
-                  >PageNo:{{ ele.pageNo }}</el-text
-                >
+                  >PageNo:{{ ele.pageNo }}</el-text>
               </el-col>
-            </el-row>
-            <el-row>
-              <el-col :span="24">
-                
-                  <el-text class="name" type="primary" truncated
+              <el-col :span="24">              
+                  <el-text class="name" type="primary" size="large" truncated
                     >{{ ele.material }}
                   </el-text>
-                
+              </el-col>
+              <el-col :span="24">              
+                  <el-text class="name-en" type="info" size="small" truncated
+                    >{{ ele.materialEn }}
+                  </el-text>
               </el-col>
             </el-row>
           </RouterLink>
@@ -77,7 +77,7 @@ const { initObjSimple } = storeToRefs(useStore);
 }
 
 .layout-aside {
-  width: 25vw;
+  width: 20vw;
   height: 100vh;
   overflow: hidden;
 
@@ -91,14 +91,14 @@ const { initObjSimple } = storeToRefs(useStore);
     align-items: center;
     justify-content: center;
     height: 50px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #fff;
     background-color: #3b8eed;
   }
 }
 
 .layout-main {
-  width: 75vw;
+  width: 80vw;
   height: 100vh;
   overflow: hidden;
 
@@ -107,7 +107,7 @@ const { initObjSimple } = storeToRefs(useStore);
     align-items: center;
     justify-content: center;
     height: 50px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #fff;
     background-color: var(--vt-c-blue);
     border-left: 1px solid #fff;
@@ -135,6 +135,7 @@ const { initObjSimple } = storeToRefs(useStore);
 
   .name {
     width: 100%;
+    font-weight: bold;
   }
 
   .pageno {
