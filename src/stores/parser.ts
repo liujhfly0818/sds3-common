@@ -8,7 +8,7 @@ export const useUserStore = defineStore('parse', {
         return {
             initObj: initObj,
             initObjSimple: initObjSimple,
-            initCasno: '7664417&1'
+            initCasno: initObjSimple[0].CASNoKey + '&' + initObjSimple[0].pageNoKey
         }
     },
 

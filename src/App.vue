@@ -9,7 +9,7 @@ import { storeToRefs } from "pinia";
 import { useUserStore } from "./stores/parser";
 const useStore = useUserStore();
 // console.log(`App ---> ${JSON.stringify(useStore)}`)
-const { initObjSimple } = storeToRefs(useStore);
+const { initObjSimple, initCasno } = storeToRefs(useStore);
 
 </script>
 
@@ -25,7 +25,7 @@ const { initObjSimple } = storeToRefs(useStore);
             class="menu-item"
             v-for="(ele, idx) in initObjSimple"
             :key="idx"
-            :style="{backgroundColor: $route.query.key == ele.key ? '#eee' : '#fff'}"
+            :style="{backgroundColor: $route.query.key == ele.key ||  initCasno == ele.key? '#eee' : '#fff'}"
           >
           <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
             <el-row>

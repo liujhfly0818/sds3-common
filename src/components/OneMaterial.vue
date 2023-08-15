@@ -6,7 +6,7 @@ defineProps<{
 }>();
 
 onMounted(() => {
-  
+
 })
 </script>
 
@@ -16,10 +16,11 @@ onMounted(() => {
       <el-row>
         <el-col :span="18">
           <!-- <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text> -->
-          <el-text class="casno" type="danger" size="large" :style="{paddingRight: '1rem'}">CASNo. ： {{ oneMaterial.CASNo }}</el-text>
-          <el-text type="primary" class="name" size="large">化学品： {{ oneMaterial.material }}</el-text>
+          <el-text class="casno" type="danger" size="large">{{ oneMaterial.CASNo }}</el-text>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <el-text type="primary" class="name" size="large">{{ oneMaterial.material }}</el-text>
         </el-col>
-        <el-col :span="6" :style="{textAlign: 'right'}">
+        <el-col :span="6" :style="{ textAlign: 'right' }">
           <el-text type="info" class="pageno">PageNo:{{ oneMaterial.pageNo }}</el-text>
         </el-col>
       </el-row>
@@ -27,35 +28,38 @@ onMounted(() => {
 
     <el-main class="section-body">
       <div v-for="(item, index) in oneMaterial.body" :key="index">
-        <div class="section-title">{{ item.title }}</div>
-        <div v-if="(typeof item.content == 'string')">
-          <div>{{ item.content }}</div>
-        </div>
-        <div v-if="(typeof item.content == 'object')">
-          <div v-for="(section, idx) in item.content" :key="idx">
-            <p class="paragraph">
-              <span class="section-label">{{ section.title }} : </span>
-              <span v-if="(typeof section.value == 'string')">
-                <span>{{ section.value }}</span>
-              </span>
-            </p>
-           
-            <div v-if="(typeof section.value == 'object')">
-              <div v-for="(subSection, subIdx) in section.value" :key="subIdx">
-                <p class="paragraph">
-                  <span class="sub-label">{{ subSection.title }} : </span>
-                  <span v-if="(typeof subSection.value == 'string')">
-                    <span>{{ subSection.value }}</span>
-                  </span>
-                </p>
-                <p v-if="(typeof subSection.value == 'object')">
-                  <p v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx"  class="paragraph">
+        <!-- <div v-if="[0, 2, 7, 8, 10].includes(index)"> -->
+        <div v-if="true">
+          <div class="section-title">{{ item.title }}</div>
+          <div v-if="(typeof item.content == 'string')">
+            <div>{{ item.content }}</div>
+          </div>
+          <div v-if="(typeof item.content == 'object')">
+            <div v-for="(section, idx) in item.content" :key="idx">
+              <p class="paragraph">
+                <span class="section-label">{{ section.title }} : </span>
+                <span v-if="(typeof section.value == 'string')">
+                  <span>{{ section.value }}</span>
+                </span>
+              </p>
+
+              <div v-if="(typeof section.value == 'object')">
+                <div v-for="(subSection, subIdx) in section.value" :key="subIdx">
+                  <p class="paragraph">
+                    <span class="sub-label">{{ subSection.title }} : </span>
+                    <span v-if="(typeof subSection.value == 'string')">
+                      <span>{{ subSection.value }}</span>
+                    </span>
+                  </p>
+                  <p v-if="(typeof subSection.value == 'object')">
+                  <p v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx" class="paragraph">
                     <span class="sub-sub-label">{{ subsubSection.title }} : </span>
                     <span v-if="(typeof subsubSection.value == 'string')">
                       <span>{{ subsubSection.value }}</span>
                     </span>
                   </p>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -87,7 +91,7 @@ onMounted(() => {
   font-size: 1.2rem;
   color: var(--vt-c-gray-dark-3);
   text-align: center;
-  padding:  1rem .5rem;
+  padding: 1rem .5rem;
   font-weight: bold;
 }
 
