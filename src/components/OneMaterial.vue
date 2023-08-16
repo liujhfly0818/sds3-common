@@ -28,8 +28,8 @@ onMounted(() => {
 
     <el-main class="section-body">
       <div v-for="(item, index) in oneMaterial.body" :key="index">
-        <!-- <div v-if="[0, 2, 7, 8, 10].includes(index)"> -->
-        <div v-if="true">
+        <div v-if="[0, 2, 7, 8, 10].includes(index)">
+        <!-- <div v-if="true"> -->
           <div class="section-title">{{ item.title }}</div>
           <div v-if="(typeof item.content == 'string')">
             <div>{{ item.content }}</div>
