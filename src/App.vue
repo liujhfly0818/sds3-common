@@ -30,8 +30,8 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
           <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
             <el-row>
               <el-col :span="14">
-                <el-text type="info" class="order" :type="ele.checked ? 'success' : ''">{{ idx + 1 }}. </el-text>
-                <el-text class="casno" :type="ele.checked ? 'success' : 'danger'" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
+                <el-text type="info" class="order">{{ idx + 1 }}. </el-text>
+                <el-text class="casno" :class="ele.checked == 1 ? 'checked-once' : (ele.checked == 2 ? 'checked-twice' : 'no-checked')" :style="{fontWeight: 'bold', fontSize: '1rem', paddingLeft: '.2rem'}">{{ ele.CASNo }}</el-text>
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
@@ -140,6 +140,18 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
 
   .pageno {
     text-align: right;
+  }
+
+  .checked-once {
+    color: var(--vt-c-green)
+  }
+
+  .checked-twice {
+    color: var(--vt-c-purple)
+  }
+
+  .no-checked {
+    color: var(--vt-c-red)
   }
 }
 

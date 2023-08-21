@@ -16,7 +16,7 @@ onMounted(() => {
       <el-row>
         <el-col :span="18">
           <!-- <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text> -->
-          <el-text class="casno" type="danger" size="large">{{ oneMaterial.CASNo }}</el-text>
+          <el-text class="casno" size="large">{{oneMaterial.CASNo }}</el-text>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <el-text type="primary" class="name" size="large">{{ oneMaterial.material }}</el-text>
         </el-col>
@@ -29,10 +29,13 @@ onMounted(() => {
     <el-main class="section-body">
       <div v-for="(item, index) in oneMaterial.body" :key="index">
         <div v-if="[0, 2, 7, 8, 10].includes(index)">
-        <!-- <div v-if="true"> -->
+          <!-- <div v-if="true"> -->
           <div class="section-title">{{ item.title }}</div>
-          <div v-if="(typeof item.content == 'string')">
+          <div v-if="(typeof item.content == 'string') && !item.content.includes('./')">
             <div>{{ item.content }}</div>
+          </div>
+          <div v-if="(typeof item.content == 'string') && item.content.includes('./')">
+            <img :src="item.content" />
           </div>
           <div v-if="(typeof item.content == 'object')">
             <div v-for="(section, idx) in item.content" :key="idx">
@@ -45,7 +48,7 @@ onMounted(() => {
 
               <div v-if="(typeof section.value == 'object')">
                 <div v-for="(subSection, subIdx) in section.value" :key="subIdx">
-                  <p class="paragraph">
+                  <p class="paragraph-2">
                     <span class="sub-label">{{ subSection.title }} : </span>
                     <span v-if="(typeof subSection.value == 'string')">
                       <span>{{ subSection.value }}</span>
@@ -116,6 +119,24 @@ onMounted(() => {
 .paragraph {
   text-indent: -2em;
   padding-left: 2em;
+}
+
+.paragraph-2 {
+  text-indent: -4em;
+  padding-left: 4em;
+}
+
+
+.checked-once {
+  color: var(--vt-c-green)
+}
+
+.checked-twice {
+  color: var(--vt-c-purple)
+}
+
+.no-checked {
+  color: var(--vt-c-red)
 }
 
 @media (min-width: 1024px) {
