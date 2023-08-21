@@ -31,11 +31,8 @@ onMounted(() => {
         <div v-if="[0, 2, 7, 8, 10].includes(index)">
           <!-- <div v-if="true"> -->
           <div class="section-title">{{ item.title }}</div>
-          <div v-if="(typeof item.content == 'string') && !item.content.includes('./')">
-            <div>{{ item.content }}</div>
-          </div>
-          <div v-if="(typeof item.content == 'string') && item.content.includes('./')">
-            <img :src="item.content" />
+          <div v-if="(typeof item.content == 'string')">
+            <div >{{ item.content }}</div>
           </div>
           <div v-if="(typeof item.content == 'object')">
             <div v-for="(section, idx) in item.content" :key="idx">
@@ -124,19 +121,6 @@ onMounted(() => {
 .paragraph-2 {
   text-indent: -4em;
   padding-left: 4em;
-}
-
-
-.checked-once {
-  color: var(--vt-c-green)
-}
-
-.checked-twice {
-  color: var(--vt-c-purple)
-}
-
-.no-checked {
-  color: var(--vt-c-red)
 }
 
 @media (min-width: 1024px) {

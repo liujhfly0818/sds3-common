@@ -1,1 +1,0 @@
-import{d as a,u as s,s as n,c as r,a as u,b as _,O as l,o as c}from"./index-f57f9bce.js";const f=a({__name:"AboutView",setup(i){const e=s(),{initObj:t}=n(e);return(o,p)=>(c(),r("div",null,[u(l,{oneMaterial:_(t)[o.$route.query.key]},null,8,["oneMaterial"])]))}});export{f as default};
