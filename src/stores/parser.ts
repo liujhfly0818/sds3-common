@@ -8,7 +8,8 @@ export const useUserStore = defineStore('parse', {
         return {
             initObj: initObj,
             initObjSimple: initObjSimple,
-            initCasno: initObjSimple[0].CASNoKey + '&' + initObjSimple[0].pageNoKey
+            initCasno: initObjSimple[0].CASNoKey + '&' + initObjSimple[0].pageNoKey,
+            currentMaterial: null
         }
     },
 
@@ -17,6 +18,10 @@ export const useUserStore = defineStore('parse', {
     },
 
     actions: {
+        updateCurKey(value: string) {
+            this.currentMaterial = initObj[value];
+            console.log(`${JSON.stringify(this.currentMaterial)}`)
+          }
     },
 
     persist: {
