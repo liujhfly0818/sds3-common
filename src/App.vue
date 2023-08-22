@@ -25,7 +25,7 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
             class="menu-item"
             v-for="(ele, idx) in initObjSimple"
             :key="idx"
-            :style="{backgroundColor: $route.query.key == ele.key ||  initCasno == ele.key? '#eee' : '#fff'}"
+            :style="{backgroundColor: $route.query.key == ele.key ||  (!$route.query.key && initCasno == ele.key)? '#eee' : '#fff'}"
           >
           <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
             <el-row>
