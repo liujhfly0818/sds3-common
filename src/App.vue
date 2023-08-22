@@ -35,7 +35,9 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
-                  >PageNo:{{ ele.pageNo }}</el-text>
+                  >Page:{{ ele.pageNoKey }}</el-text>
+                  <el-text type="info" size="small"
+                  >&nbsp;&nbsp;PDF:{{ ele.pageNoKey + 16 }}</el-text>
               </el-col>
               <el-col :span="24">              
                   <el-text class="name" type="primary" size="large" truncated

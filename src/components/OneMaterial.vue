@@ -21,7 +21,7 @@ onMounted(() => {
           <el-text type="primary" class="name" size="large">{{ oneMaterial.material }}</el-text>
         </el-col>
         <el-col :span="6" :style="{ textAlign: 'right' }">
-          <el-text type="info" class="pageno">PageNo:{{ oneMaterial.pageNo }}</el-text>
+          <el-text type="info" class="pageno">Page: {{ oneMaterial.pageNoKey }}</el-text>
         </el-col>
       </el-row>
     </el-header>
