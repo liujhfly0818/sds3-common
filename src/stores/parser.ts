@@ -22,10 +22,5 @@ export const useUserStore = defineStore('parse', {
             this.currentMaterial = initObj[value];
             console.log(`${JSON.stringify(this.currentMaterial)}`)
           }
-    },
-
-    persist: {
-        key: 'map',
-        storage: sessionStorage
     }
 })
