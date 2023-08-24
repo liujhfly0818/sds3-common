@@ -45,7 +45,7 @@
 	"materialCH": "4-氨基吡啶；γ-吡啶胺；对氨基吡啶",
 	"materialEn": "4-aminopyridine；γ-pyridylamine",
 	"pageNo": "9",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 9,
 	"key": "504245&9"
 }, {
@@ -55,7 +55,7 @@
 	"materialCH": "氨基磺酸；磺酰胺酸",
 	"materialEn": "sulfamic acid；amidosulfonic acid",
 	"pageNo": "11",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 11,
 	"key": "5329146&11"
 }, {
@@ -65,7 +65,7 @@
 	"materialCH": "4-氨基联苯；对氨基联苯；对苯基苯胺",
 	"materialEn": "4-aminobiphenyl；p-aminophenylbenzene",
 	"pageNo": "13",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 13,
 	"key": "92671&13"
 }, {
@@ -75,7 +75,7 @@
 	"materialCH": "氨溶液；氨水",
 	"materialEn": "ammonia water；aqua ammonia；ammonia,aqueous solution",
 	"pageNo": "15",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 15,
 	"key": "1336216&15"
 }, {
