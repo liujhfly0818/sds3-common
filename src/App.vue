@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 // import data from "./assets/commonAll.json";
 // console.log(`${data[0].material}`)
 
@@ -9,7 +8,12 @@ import { storeToRefs } from "pinia";
 import { useUserStore } from "./stores/parser";
 const useStore = useUserStore();
 // console.log(`App ---> ${JSON.stringify(useStore)}`)
-const { initObjSimple, initCasno } = storeToRefs(useStore);
+const { initObjSimple, initCasno, currentMaterial } = storeToRefs(useStore);
+
+const updateCurKey = (key: string) => {
+  useStore.initCasno = key;
+  useStore.updateCurKey(key);
+}
 
 </script>
 
@@ -18,16 +22,19 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <el-aside class="layout-aside">
-      <h5 class="header">元素列表</h5>
+      <div class="header">
+        <div class="title">元素索引</div>
+        <div class="tips">校验次数: 红0, 绿1, 紫2</div>
+      </div>
       <el-scrollbar class="scrollbar">
         <div class="menu-list">
           <div
             class="menu-item"
             v-for="(ele, idx) in initObjSimple"
             :key="idx"
-            :style="{backgroundColor: $route.query.key == ele.key ||  (!$route.query.key && initCasno == ele.key)? '#eee' : '#fff'}"
+            :style="{backgroundColor: $route.query.key == ele.key ||  (!$route.query.key && initCasno == ele.key)? '#eee' : '#fff', borderColor: $route.query.key == ele.key ||  (!$route.query.key && initCasno == ele.key)? '#3b8eed' : ''}"
           >
-          <RouterLink :to="{path: '/about',  query: {key: ele.key}}"> 
+          <RouterLink :to="{path: '/about',  query: {key: ele.key}}" @click="updateCurKey(ele.key)"> 
             <el-row>
               <el-col :span="14">
                 <el-text type="info" class="order">{{ idx + 1 }}. </el-text>
@@ -35,7 +42,9 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
               </el-col>
               <el-col :span="10" class="pageno" style="text-right: right">
                 <el-text type="info" size="small"
-                  >PageNo:{{ ele.pageNo }}</el-text>
+                  >Page:{{ ele.pageNoKey }}</el-text>
+                  <el-text type="info" size="small"
+                  >&nbsp;&nbsp;PDF:{{ ele.pageNoKey + 16 }}</el-text>
               </el-col>
               <el-col :span="24">              
                   <el-text class="name" type="primary" size="large" truncated
@@ -57,7 +66,12 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
     <el-container class="layout-main">
       <el-header class="header">
         <div class="toolbar">
-          <span>元素详细信息</span>
+          <span v-if="!currentMaterial">元素详细信息</span>
+          <span v-else>
+            {{ currentMaterial.CASNo }}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {{ currentMaterial.material }}
+          </span>
         </div>
       </el-header>
 
@@ -87,13 +101,18 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
   }
 
   .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 50px;
-    font-size: 1.2rem;
+    text-align: center;
     color: #fff;
     background-color: #3b8eed;
+
+    .title {
+      font-size: 1rem;
+    }
+
+    .tips {
+      font-size: 0.3rem;
+    }
   }
 }
 
@@ -132,6 +151,7 @@ const { initObjSimple, initCasno } = storeToRefs(useStore);
 .menu-item {
   padding: 0.4rem 0.5rem;
   border-bottom: 1px dashed #eee;
+  border-left: 6px solid #fff;
 
   .name {
     width: 100%;

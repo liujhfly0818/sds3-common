@@ -16,12 +16,12 @@ onMounted(() => {
       <el-row>
         <el-col :span="18">
           <!-- <el-text class="casno-index" size="large" :style="{paddingRight: '.5rem'}">{{ oneMaterial.CASNoKey }}. </el-text> -->
-          <el-text class="casno" size="large">{{oneMaterial.CASNo }}</el-text>
+          <el-text class="casno" size="large" type="primary">{{oneMaterial.CASNo }}</el-text>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <el-text type="primary" class="name" size="large">{{ oneMaterial.material }}</el-text>
         </el-col>
         <el-col :span="6" :style="{ textAlign: 'right' }">
-          <el-text type="info" class="pageno">PageNo:{{ oneMaterial.pageNo }}</el-text>
+          <el-text type="info" class="pageno">Page: {{ oneMaterial.pageNoKey }}</el-text>
         </el-col>
       </el-row>
     </el-header>
