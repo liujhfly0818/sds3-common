@@ -85,7 +85,7 @@
 	"materialCH": "白磷；黄磷",
 	"materialEn": "phosphorus white；phosphorus yellow",
 	"pageNo": "17",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 17,
 	"key": "12185103&17"
 }, {
@@ -95,7 +95,7 @@
 	"materialCH": "钡；金属钡",
 	"materialEn": "barium",
 	"pageNo": "19",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 19,
 	"key": "7440393&19"
 }, {
@@ -105,7 +105,7 @@
 	"materialCH": "苯",
 	"materialEn": "benzene；phene",
 	"pageNo": "21",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 21,
 	"key": "71432&21"
 }, {
@@ -115,7 +115,7 @@
 	"materialCH": "苯胺；氨基苯；阿尼林油",
 	"materialEn": "aniline；aminobenzene；aniline oil",
 	"pageNo": "24",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 24,
 	"key": "62533&24"
 }, {
@@ -125,7 +125,7 @@
 	"materialCH": "苯酚；石炭酸",
 	"materialEn": "phenol；carbolic acid",
 	"pageNo": "26",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 26,
 	"key": "108952&26"
 }, {

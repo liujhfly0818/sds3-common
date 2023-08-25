@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink, RouterView, useRouter } from "vue-router";
 // import data from "./assets/commonAll.json";
 // console.log(`${data[0].material}`)
 
-import { ref } from "vue";
 import { storeToRefs } from "pinia";
 import { useUserStore } from "./stores/parser";
 const useStore = useUserStore();
@@ -14,6 +13,36 @@ const updateCurKey = (key: string) => {
   useStore.initCasno = key;
   useStore.updateCurKey(key);
 }
+
+import {
+  onBeforeMount,
+  onBeforeUnmount,
+  onBeforeUpdate,
+  onMounted,
+  onUnmounted,
+  onUpdated,
+} from "vue";
+const router = useRouter()
+
+onBeforeMount(() => {
+  console.log("App ---> 触发BeforeMount钩子");
+});
+onMounted(() => {
+  console.log("App ---> 触发Mounted钩子");
+  // console.log(`App ---> ${JSON.stringify(router.currentRoute.value.query)}`)
+});
+onBeforeUpdate(() => {
+  console.log("App ---> 触发BeforeUpdate钩子");
+});
+onUpdated(() => {
+  console.log("App ---> 触发Updated钩子");
+});
+onBeforeUnmount(() => {
+  console.log("App ---> 触发BeforeMount钩子");
+});
+onUnmounted(() => {
+  console.log("App ---> 触发Unmounted钩子");
+});
 
 </script>
 
