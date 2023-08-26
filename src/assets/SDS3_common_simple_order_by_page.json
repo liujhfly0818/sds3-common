@@ -135,7 +135,7 @@
 	"materialCH": "苯酚钠；苯氧基钠",
 	"materialEn": "sodium phenolate；sodium phenoxide",
 	"pageNo": "28",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 28,
 	"key": "139026&28"
 }, {
@@ -145,7 +145,7 @@
 	"materialCH": "苯磺酰肼；发泡剂 BSH",
 	"materialEn": "benzenesulfonylhydrazine；foaming agent BSH",
 	"pageNo": "30",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 30,
 	"key": "80171&30"
 }, {
@@ -155,7 +155,7 @@
 	"materialCH": "苯磺酰氯；氯化苯磺酰",
 	"materialEn": "benzenesulfonyl chloride；phenylsulfonyl chloride",
 	"pageNo": "32",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 32,
 	"key": "98099&32"
 }, {
@@ -165,7 +165,7 @@
 	"materialCH": "苯基硫醇；苯硫酚；巯基苯；硫代苯酚",
 	"materialEn": "phenyl mercaptan；thiophenol",
 	"pageNo": "34",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 34,
 	"key": "108985&34"
 }, {
@@ -175,7 +175,7 @@
 	"materialCH": "N-苯基-2-萘胺；防老剂 D",
 	"materialEn": "N-phenyl-2-naphthylamine；N-phenyl-betanaphthylamine",
 	"pageNo": "36",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 36,
 	"key": "135886&36"
 }, {
@@ -185,7 +185,7 @@
 	"materialCH": "苯基三氯硅烷；苯代三氯硅烷",
 	"materialEn": "phenyltrichlorosilane；trichlorophenylsilane",
 	"pageNo": "38",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 38,
 	"key": "98135&38"
 }, {
@@ -195,7 +195,7 @@
 	"materialCH": "苯甲腈；苯基氰；氰基苯",
 	"materialEn": "benzonitrile；phenyl cyanide",
 	"pageNo": "40",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 40,
 	"key": "100470&40"
 }, {
@@ -205,7 +205,7 @@
 	"materialCH": "苯甲醚；茴香醚；甲氧基苯",
 	"materialEn": "anisole；phenyl methyl ether",
 	"pageNo": "42",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 42,
 	"key": "100663&42"
 }, {
@@ -215,7 +215,7 @@
 	"materialCH": "苯甲酸甲酯；尼哦油；苯酸甲酯；安息香酸甲酯",
 	"materialEn": "methyl benzoate；benzoic acid methyl ester；niobe oil",
 	"pageNo": "44",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 44,
 	"key": "93583&44"
 }, {
@@ -225,7 +225,7 @@
 	"materialCH": "苯甲酰氯；氯化苯甲酰",
 	"materialEn": "benzoyl chloride；benzenecarbonyl chloride",
 	"pageNo": "46",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 46,
 	"key": "98884&46"
 }, {
@@ -235,7 +235,7 @@
 	"materialCH": "苯肼；苯基联氨",
 	"materialEn": "phenylhydrazine；hydrazinobenzene",
 	"pageNo": "49",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 49,
 	"key": "100630&49"
 }, {
@@ -243,9 +243,9 @@
 	"CASNo": "140-29-4",
 	"material": "苯乙腈",
 	"materialCH": "苯乙腈；苄基氰；苄氰",
-	"materialEn": "phenylace tonitrile；benzyl cyanide",
+	"materialEn": "phenylacetonitrile；benzyl cyanide",
 	"pageNo": "51",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 51,
 	"key": "140294&51"
 }, {
@@ -255,7 +255,7 @@
 	"materialCH": "2-苯基乙硫醇；苯乙硫醇；苯(基)乙硫醇",
 	"materialEn": "2-phenylethylmercaptan；2-phenylethanethiol",
 	"pageNo": "52",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 52,
 	"key": "4410995&52"
 }, {
@@ -263,7 +263,7 @@
 	"CASNo": "536-74-3",
 	"material": "苯乙炔",
 	"materialCH": "苯乙炔；乙炔苯",
-	"materialEn": "phenylacet ylene；acetylene benzene；ethynylbenzene",
+	"materialEn": "phenylacetylene；acetylene benzene；ethynylbenzene",
 	"pageNo": "54",
 	"checked": 0,
 	"pageNoKey": 54,
