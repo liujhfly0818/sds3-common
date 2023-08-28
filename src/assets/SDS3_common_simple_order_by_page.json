@@ -295,7 +295,7 @@
 	"materialCH": "苄硫醇；α-甲苯硫醇；苯甲硫醇",
 	"materialEn": "benzyl mercaptan；α-toluenethiol；tolyl mercaptan",
 	"pageNo": "61",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 61,
 	"key": "100538&61"
 }, {
@@ -305,7 +305,7 @@
 	"materialCH": "丙胺；正丙胺；1-氨基丙烷",
 	"materialEn": "propylamine；1-aminopropane",
 	"pageNo": "63",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 63,
 	"key": "107108&63"
 }, {
@@ -315,7 +315,7 @@
 	"materialCH": "丙苯；1-苯基丙烷",
 	"materialEn": "n-propylbenzene；1-phenylpropane",
 	"pageNo": "65",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 65,
 	"key": "103651&65"
 }, {
@@ -325,7 +325,7 @@
 	"materialCH": "2-丙醇；异丙醇",
 	"materialEn": "2-propanol；isopropyl alcohol",
 	"pageNo": "67",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 67,
 	"key": "67630&67"
 }, {
@@ -335,7 +335,7 @@
 	"materialCH": "1-丙醇；正丙醇",
 	"materialEn": "1-propyl alcohol；n-propanol；1-propanol",
 	"pageNo": "69",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 69,
 	"key": "71238&69"
 }, {
