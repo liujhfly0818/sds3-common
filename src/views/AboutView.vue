@@ -35,16 +35,16 @@ onMounted(() => {
   }
 });
 onBeforeUpdate(() => {
-  console.log("AboutView ---> 触发BeforeUpdate钩子");
+  // console.log("AboutView ---> 触发BeforeUpdate钩子");
 });
 onUpdated(() => {
-  console.log("AboutView ---> 触发Updated钩子");
+  // console.log("AboutView ---> 触发Updated钩子");
 });
 onBeforeUnmount(() => {
-  console.log("AboutView ---> 触发BeforeMount钩子");
+  // console.log("AboutView ---> 触发BeforeMount钩子");
 });
 onUnmounted(() => {
-  console.log("AboutView ---> 触发Unmounted钩子");
+  // console.log("AboutView ---> 触发Unmounted钩子");
 });
 
 

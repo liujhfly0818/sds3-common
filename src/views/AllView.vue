@@ -14,22 +14,22 @@ import {
   onUpdated,
 } from "vue";
 onBeforeMount(() => {
-  console.log("AllView ---> 触发BeforeMount钩子");
+  // console.log("AllView ---> 触发BeforeMount钩子");
 });
 onMounted(() => {
-  console.log("AllView ---> 触发Mounted钩子");
+  // console.log("AllView ---> 触发Mounted钩子");
 });
 onBeforeUpdate(() => {
-  console.log("AllView ---> 触发BeforeUpdate钩子");
+  // console.log("AllView ---> 触发BeforeUpdate钩子");
 });
 onUpdated(() => {
-  console.log("AllView ---> 触发Updated钩子");
+  // console.log("AllView ---> 触发Updated钩子");
 });
 onBeforeUnmount(() => {
-  console.log("AllView ---> 触发BeforeMount钩子");
+  // console.log("AllView ---> 触发BeforeMount钩子");
 });
 onUnmounted(() => {
-  console.log("AllView ---> 触发Unmounted钩子");
+  // console.log("AllView ---> 触发Unmounted钩子");
 });
 </script>
 
