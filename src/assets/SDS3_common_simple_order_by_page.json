@@ -345,7 +345,7 @@
 	"materialCH": "1,3-丙二胺；1,3-二氨基丙烷",
 	"materialEn": "1,3-propanediamine；1,3-diaminopropane",
 	"pageNo": "71",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 71,
 	"key": "109762&71"
 }, {
@@ -355,7 +355,7 @@
 	"materialCH": "1,2-丙二胺；1,2-二氨基丙烷",
 	"materialEn": "1,2-propanediamine；1,2-diaminopropane",
 	"pageNo": "73",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 73,
 	"key": "78900&73"
 }, {
@@ -365,7 +365,7 @@
 	"materialCH": "丙二腈；二氰甲烷",
 	"materialEn": "propanedinitrile；dicyanomethane；malononitrile",
 	"pageNo": "75",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 75,
 	"key": "109773&75"
 }, {
@@ -375,7 +375,7 @@
 	"materialCH": "丙二烯",
 	"materialEn": "allene；propadiene；dimethylene methane",
 	"pageNo": "77",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 77,
 	"key": "463490&77"
 }, {
@@ -385,7 +385,7 @@
 	"materialCH": "丙腈；乙基氰",
 	"materialEn": "propionitrile；ethyl cyanide",
 	"pageNo": "79",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 79,
 	"key": "107120&79"
 }, {
@@ -395,7 +395,7 @@
 	"materialCH": "丙醚；正丙醚；二正丙醚",
 	"materialEn": "n-propyl ether；di-n-propyl ether",
 	"pageNo": "81",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 81,
 	"key": "111433&81"
 }, {
@@ -405,7 +405,7 @@
 	"materialCH": "丙醛；正丙醛",
 	"materialEn": "propanal；propionaldehyde",
 	"pageNo": "83",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 83,
 	"key": "123386&83"
 }, {
@@ -415,7 +415,7 @@
 	"materialCH": "丙炔；甲基乙炔",
 	"materialEn": "propyne；methyl acetylene",
 	"pageNo": "85",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 85,
 	"key": "74997&85"
 }, {
@@ -425,7 +425,7 @@
 	"materialCH": "丙酸",
 	"materialEn": "propionic acid；propanoic acid",
 	"pageNo": "87",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 87,
 	"key": "79094&87"
 }, {
@@ -435,7 +435,7 @@
 	"materialCH": "丙酸丁酯；丙酸正丁酯",
 	"materialEn": "n-butyl propionate；butyl propionate",
 	"pageNo": "89",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 89,
 	"key": "590012&89"
 }, {
@@ -445,7 +445,7 @@
 	"materialCH": "丙酸酐",
 	"materialEn": "propionic anhydride；propanoic acid anhydride",
 	"pageNo": "91",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 91,
 	"key": "123626&91"
 }, {
@@ -455,7 +455,7 @@
 	"materialCH": "丙酸甲酯",
 	"materialEn": "methyl propionate；propionic acid；methyl ester",
 	"pageNo": "93",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 93,
 	"key": "554121&93"
 }, {
@@ -465,7 +465,7 @@
 	"materialCH": "丙酸戊酯；丙酸正戊酯",
 	"materialEn": "pentyl propionate；amyl propionate",
 	"pageNo": "95",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 95,
 	"key": "624544&95"
 }, {
@@ -475,7 +475,7 @@
 	"materialCH": "丙酸乙酯",
 	"materialEn": "ethyl propanoate；propionic acid；ethyl ester",
 	"pageNo": "97",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 97,
 	"key": "105373&97"
 }, {
@@ -485,7 +485,7 @@
 	"materialCH": "丙酸异丁酯",
 	"materialEn": "isobutyl propionate；propionic acid isobutyl ester",
 	"pageNo": "99",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 99,
 	"key": "540421&99"
 }, {
@@ -495,7 +495,7 @@
 	"materialCH": "丙酸异戊酯",
 	"materialEn": "isoamyl propionate；isopentyl propanoate",
 	"pageNo": "101",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 101,
 	"key": "105680&101"
 }, {
