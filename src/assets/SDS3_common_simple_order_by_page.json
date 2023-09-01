@@ -555,7 +555,7 @@
 	"materialCH": "丙烯酸",
 	"materialEn": "acrylic acid；2-propenoic acid",
 	"pageNo": "115",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 115,
 	"key": "79107&115"
 }, {
@@ -565,7 +565,7 @@
 	"materialCH": "丙烯酸丁酯[抑制了的]；丙烯酸正丁酯",
 	"materialEn": "n-butyl acrylate(inhibited)；butyl 2-propenoate",
 	"pageNo": "117",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 117,
 	"key": "141322&117"
 }, {
@@ -575,7 +575,7 @@
 	"materialCH": "丙烯酸甲酯[抑制了的]；败脂酸甲酯",
 	"materialEn": "methyl acrylate(inhibited)；methyl propenoate",
 	"pageNo": "119",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 119,
 	"key": "96333&119"
 }, {
@@ -585,7 +585,7 @@
 	"materialCH": "丙烯酸乙酯",
 	"materialEn": "ethyl acrylate；ethyl propenoate",
 	"pageNo": "122",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 122,
 	"key": "140885&122"
 }, {
@@ -595,7 +595,7 @@
 	"materialCH": "丙烯酸异丁酯[抑制了的]",
 	"materialEn": "isobutyl acrylate(inhibited)；isobutyl propenoate",
 	"pageNo": "124",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 124,
 	"key": "106638&124"
 }, {
@@ -605,7 +605,7 @@
 	"materialCH": "丙烯酰胺；2-丙烯酰胺",
 	"materialEn": "acrylamide；2-propenamide",
 	"pageNo": "126",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 126,
 	"key": "79061&126"
 }, {
@@ -615,7 +615,7 @@
 	"materialCH": "次磷酸；卑磷酸",
 	"materialEn": "hypophosphorous acid",
 	"pageNo": "128",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 128,
 	"key": "6303215&128"
 }, {
@@ -625,7 +625,7 @@
 	"materialCH": "次氯酸钙；漂白粉",
 	"materialEn": "calcium hypochlorite；bleaching powder",
 	"pageNo": "130",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 130,
 	"key": "7778543&130"
 }, {
@@ -635,7 +635,7 @@
 	"materialCH": "次氯酸钠溶液",
 	"materialEn": "sodium hypochlorite solution",
 	"pageNo": "132",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 132,
 	"key": "7681529&132"
 }, {
@@ -645,7 +645,7 @@
 	"materialCH": "代森铵；1,2-亚乙基双二硫代氨基甲酸铵；阿巴姆",
 	"materialEn": "ammonium ethylene bisdithiocarbamate；amobam；dithane stainless",
 	"pageNo": "134",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 134,
 	"key": "3566107&134"
 }, {
@@ -655,7 +655,7 @@
 	"materialCH": "代森钠；1,2-亚乙基双二硫代氨基甲酸钠",
 	"materialEn": "nabam；disodium ethylene-1,2-bis-dithiocarbamate；dithane D-14",
 	"pageNo": "136",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 136,
 	"key": "142596&136"
 }, {
@@ -665,7 +665,7 @@
 	"materialCH": "代森锌；1,2-亚乙基双二硫代氨基甲酸锌",
 	"materialEn": "zinc ethylenebis(dithiocarbamate)；ethylenebis(dithiocarbamato) zinc；dithane Z-78；zineb",
 	"pageNo": "138",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 138,
 	"key": "12122677&138"
 }, {
