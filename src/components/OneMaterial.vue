@@ -29,7 +29,7 @@ onMounted(() => {
     <el-main class="section-body">
       <div v-for="(item, index) in oneMaterial.body" :key="index">
         <div v-if="[0, 2, 7, 8, 10].includes(index)">
-          <!-- <div v-if="true"> -->
+        <!-- <div v-if="true"> -->
           <div class="section-title">{{ item.title }}</div>
           <div v-if="(typeof item.content == 'string')">
             <div >{{ item.content }}</div>
@@ -37,7 +37,7 @@ onMounted(() => {
           <div v-if="(typeof item.content == 'object')">
             <div v-for="(section, idx) in item.content" :key="idx">
               <p class="paragraph">
-                <span class="section-label">{{ section.title }} : </span>
+                <span class="section-label">{{ section.title }}<span v-if="section.title"> : </span></span>
                 <span v-if="(typeof section.value == 'string')">
                   <span>{{ section.value }}</span>
                 </span>
@@ -46,14 +46,14 @@ onMounted(() => {
               <div v-if="(typeof section.value == 'object')">
                 <div v-for="(subSection, subIdx) in section.value" :key="subIdx">
                   <p class="paragraph-2">
-                    <span class="sub-label">{{ subSection.title }} : </span>
+                    <span class="sub-label">{{ subSection.title }}<span v-if="subSection.title"> : </span></span>
                     <span v-if="(typeof subSection.value == 'string')">
                       <span>{{ subSection.value }}</span>
                     </span>
                   </p>
                   <p v-if="(typeof subSection.value == 'object')">
-                  <p v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx" class="paragraph">
-                    <span class="sub-sub-label">{{ subsubSection.title }} : </span>
+                  <p v-for="(subsubSection, subsubIdx) in subSection.value" :key="subsubIdx" class="paragraph-3">
+                    <span class="sub-sub-label">{{ subsubSection.title }}<span v-if="subsubSection.title"> : </span></span>
                     <span v-if="(typeof subsubSection.value == 'string')">
                       <span>{{ subsubSection.value }}</span>
                     </span>
@@ -104,13 +104,13 @@ onMounted(() => {
 .sub-label {
   font-weight: bold;
   color: #333;
-  padding-left: 2rem;
+  padding-left: 2em;
 }
 
 .sub-sub-label {
   font-weight: bold;
   color: #333;
-  padding-left: 3rem;
+  padding-left: 4em;
 }
 
 .paragraph {
@@ -121,6 +121,11 @@ onMounted(() => {
 .paragraph-2 {
   text-indent: -4em;
   padding-left: 4em;
+}
+
+.paragraph-3 {
+  text-indent: -6em;
+  padding-left: 6em;
 }
 
 @media (min-width: 1024px) {

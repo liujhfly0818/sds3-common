@@ -675,7 +675,7 @@
 	"materialCH": "氮；氮气",
 	"materialEn": "nitrogen；nitrogen gas",
 	"pageNo": "140,1817",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 140,
 	"key": "7727379&140"
 }, {
@@ -685,7 +685,7 @@
 	"materialCH": "敌百虫；二甲基-(2,2,2-三氯-1-羟基乙基)膦酸酯",
 	"materialEn": "O,O-dimethyl(2,2,2-tri-chloro-1-hydroxyethyl) phosphonate；trichlorfon；dipterex",
 	"pageNo": "142",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 142,
 	"key": "52686&142"
 }, {
@@ -695,7 +695,7 @@
 	"materialCH": "敌敌畏；O,O-二甲基-O-(2,2-二氯乙烯基)磷酸酯",
 	"materialEn": "O,O-dimethyl-O-2,2-dichlorovinyl phosphate；dichlorvos；DDVP",
 	"pageNo": "145",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 145,
 	"key": "62737&145"
 }, {
