@@ -70,7 +70,7 @@ onUnmounted(() => {
     <el-aside class="layout-aside">
       <div class="header">
         <div class="title">元素索引</div>
-        <div class="tips">校验次数: 红0, 绿1, 紫2</div>
+        <div class="tips">校对情况: 红0, 绿0.5, 紫1</div>
       </div>
 
       <el-scrollbar class="scrollbar" id="menuListScrollar">

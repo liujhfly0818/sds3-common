@@ -35,7 +35,7 @@
 	"materialCH": "2-氨基苯酚；邻氨基苯酚；邻羟基苯胺；2-氨基酚",
 	"materialEn": "2-aminophenol；o-aminophenol",
 	"pageNo": "7",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 7,
 	"key": "95556&7"
 }, {
@@ -45,7 +45,7 @@
 	"materialCH": "4-氨基吡啶；γ-吡啶胺；对氨基吡啶",
 	"materialEn": "4-aminopyridine；γ-pyridylamine",
 	"pageNo": "9",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 9,
 	"key": "504245&9"
 }, {
@@ -55,7 +55,7 @@
 	"materialCH": "氨基磺酸；磺酰胺酸",
 	"materialEn": "sulfamic acid；amidosulfonic acid",
 	"pageNo": "11",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 11,
 	"key": "5329146&11"
 }, {
@@ -65,7 +65,7 @@
 	"materialCH": "4-氨基联苯；对氨基联苯；对苯基苯胺",
 	"materialEn": "4-aminobiphenyl；p-aminophenylbenzene",
 	"pageNo": "13",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 13,
 	"key": "92671&13"
 }, {
@@ -75,7 +75,7 @@
 	"materialCH": "氨溶液；氨水",
 	"materialEn": "ammonia water；aqua ammonia；ammonia,aqueous solution",
 	"pageNo": "15",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 15,
 	"key": "1336216&15"
 }, {
@@ -85,7 +85,7 @@
 	"materialCH": "白磷；黄磷",
 	"materialEn": "phosphorus white；phosphorus yellow",
 	"pageNo": "17",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 17,
 	"key": "12185103&17"
 }, {
@@ -95,7 +95,7 @@
 	"materialCH": "钡；金属钡",
 	"materialEn": "barium",
 	"pageNo": "19",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 19,
 	"key": "7440393&19"
 }, {
@@ -105,7 +105,7 @@
 	"materialCH": "苯",
 	"materialEn": "benzene；phene",
 	"pageNo": "21",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 21,
 	"key": "71432&21"
 }, {
@@ -115,7 +115,7 @@
 	"materialCH": "苯胺；氨基苯；阿尼林油",
 	"materialEn": "aniline；aminobenzene；aniline oil",
 	"pageNo": "24",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 24,
 	"key": "62533&24"
 }, {
@@ -125,7 +125,7 @@
 	"materialCH": "苯酚；石炭酸",
 	"materialEn": "phenol；carbolic acid",
 	"pageNo": "26",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 26,
 	"key": "108952&26"
 }, {
@@ -135,7 +135,7 @@
 	"materialCH": "苯酚钠；苯氧基钠",
 	"materialEn": "sodium phenolate；sodium phenoxide",
 	"pageNo": "28",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 28,
 	"key": "139026&28"
 }, {
@@ -145,7 +145,7 @@
 	"materialCH": "苯磺酰肼；发泡剂 BSH",
 	"materialEn": "benzenesulfonylhydrazine；foaming agent BSH",
 	"pageNo": "30",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 30,
 	"key": "80171&30"
 }, {
@@ -155,7 +155,7 @@
 	"materialCH": "苯磺酰氯；氯化苯磺酰",
 	"materialEn": "benzenesulfonyl chloride；phenylsulfonyl chloride",
 	"pageNo": "32",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 32,
 	"key": "98099&32"
 }, {
@@ -165,7 +165,7 @@
 	"materialCH": "苯基硫醇；苯硫酚；巯基苯；硫代苯酚",
 	"materialEn": "phenyl mercaptan；thiophenol",
 	"pageNo": "34",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 34,
 	"key": "108985&34"
 }, {
@@ -175,7 +175,7 @@
 	"materialCH": "N-苯基-2-萘胺；防老剂 D",
 	"materialEn": "N-phenyl-2-naphthylamine；N-phenyl-betanaphthylamine",
 	"pageNo": "36",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 36,
 	"key": "135886&36"
 }, {
@@ -185,7 +185,7 @@
 	"materialCH": "苯基三氯硅烷；苯代三氯硅烷",
 	"materialEn": "phenyltrichlorosilane；trichlorophenylsilane",
 	"pageNo": "38",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 38,
 	"key": "98135&38"
 }, {
@@ -195,7 +195,7 @@
 	"materialCH": "苯甲腈；苯基氰；氰基苯",
 	"materialEn": "benzonitrile；phenyl cyanide",
 	"pageNo": "40",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 40,
 	"key": "100470&40"
 }, {
@@ -205,7 +205,7 @@
 	"materialCH": "苯甲醚；茴香醚；甲氧基苯",
 	"materialEn": "anisole；phenyl methyl ether",
 	"pageNo": "42",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 42,
 	"key": "100663&42"
 }, {
@@ -215,7 +215,7 @@
 	"materialCH": "苯甲酸甲酯；尼哦油；苯酸甲酯；安息香酸甲酯",
 	"materialEn": "methyl benzoate；benzoic acid methyl ester；niobe oil",
 	"pageNo": "44",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 44,
 	"key": "93583&44"
 }, {
