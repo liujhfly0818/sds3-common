@@ -335,7 +335,7 @@
 	"materialCH": "1-丙醇；正丙醇",
 	"materialEn": "1-propyl alcohol；n-propanol；1-propanol",
 	"pageNo": "69",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 69,
 	"key": "71238&69"
 }, {
@@ -345,7 +345,7 @@
 	"materialCH": "1,3-丙二胺；1,3-二氨基丙烷",
 	"materialEn": "1,3-propanediamine；1,3-diaminopropane",
 	"pageNo": "71",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 71,
 	"key": "109762&71"
 }, {
@@ -355,7 +355,7 @@
 	"materialCH": "1,2-丙二胺；1,2-二氨基丙烷",
 	"materialEn": "1,2-propanediamine；1,2-diaminopropane",
 	"pageNo": "73",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 73,
 	"key": "78900&73"
 }, {
@@ -365,7 +365,7 @@
 	"materialCH": "丙二腈；二氰甲烷",
 	"materialEn": "propanedinitrile；dicyanomethane；malononitrile",
 	"pageNo": "75",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 75,
 	"key": "109773&75"
 }, {
@@ -375,7 +375,7 @@
 	"materialCH": "丙二烯",
 	"materialEn": "allene；propadiene；dimethylene methane",
 	"pageNo": "77",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 77,
 	"key": "463490&77"
 }, {
