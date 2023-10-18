@@ -2,7 +2,7 @@
 import { storeToRefs } from "pinia";
 import { useUserStore } from "../stores/parser";
 const useStore = useUserStore();
-const { initObj, initCasno } = storeToRefs(useStore);
+const { initObj, initCasno, initObjSimple } = storeToRefs(useStore);
 
 import OneMaterial from "../components/OneMaterial.vue";
 import {
@@ -35,6 +35,15 @@ onUnmounted(() => {
 
 <template>
   <main>
-    <OneMaterial :oneMaterial="initObj[initCasno]" />
+    
+    <div v-if="initCasno">
+      <OneMaterial :oneMaterial="initObj[initCasno]" />
+    </div>
+    <div v-else>
+      <div v-for="(ele, idx) in initObjSimple"
+            :key="idx">
+            <OneMaterial :oneMaterial="initObj[ele.key]" />
+      </div>
+    </div>
   </main>
 </template>
