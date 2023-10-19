@@ -515,7 +515,7 @@
 	"materialCH": "丙烷",
 	"materialEn": "propane；dimethyl methane",
 	"pageNo": "106,1818",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 106,
 	"key": "74986&106"
 }, {
@@ -5025,7 +5025,7 @@
 	"materialCH": "2,4,6,2',4',6'-六硝基二苯胺；黑喜尔；六硝基二苯胺；六硝炸药；二苦基胺",
 	"materialEn": "2,4,6,2',4',6'-hexanitrodiphenylamine；hexyl",
 	"pageNo": "1017",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1017,
 	"key": "131737&1017"
 }, {
@@ -5035,7 +5035,7 @@
 	"materialCH": "六亚甲基四胺；乌洛托品",
 	"materialEn": "hexamethylenetetramine；urotropine",
 	"pageNo": "1019",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1019,
 	"key": "100970&1019"
 }, {
@@ -5045,7 +5045,7 @@
 	"materialCH": "六亚甲基亚胺",
 	"materialEn": "hexamethyleneimine；azacycloheptane",
 	"pageNo": "1021",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1021,
 	"key": "111499&1021"
 }, {
