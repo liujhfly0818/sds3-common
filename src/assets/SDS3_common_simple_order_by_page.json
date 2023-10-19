@@ -505,7 +505,7 @@
 	"materialCH": "丙酮；二甲基(甲)酮；阿西通",
 	"materialEn": "acetone；dimethyl ketone；2-propanone",
 	"pageNo": "103",
-	"checked": 1,
+	"checked": 2,
 	"pageNoKey": 103,
 	"key": "67641&103"
 }, {
@@ -4995,7 +4995,7 @@
 	"materialCH": "六甲基二硅醚；六甲基氧二硅烷",
 	"materialEn": "hexamethyl disiloxane；hexamethyloxy disilane；bis(trimethylsilyl) ether",
 	"pageNo": "1011",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1011,
 	"key": "107460&1011"
 }, {
@@ -5005,7 +5005,7 @@
 	"materialCH": "六氯苯；全氯代苯；灭黑穗药",
 	"materialEn": "hexachlorobenzene；hexachlorbenzol",
 	"pageNo": "1013",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1013,
 	"key": "118741&1013"
 }, {
@@ -5015,7 +5015,7 @@
 	"materialCH": "六氯乙烷；全氯乙烷；六氯化碳",
 	"materialEn": "hexachloroethane；perchloroethane；carbon hexachloride",
 	"pageNo": "1015",
-	"checked": 0,
+	"checked": 2,
 	"pageNoKey": 1015,
 	"key": "67721&1015"
 }, {
