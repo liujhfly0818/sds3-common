@@ -5,7 +5,7 @@
 	"materialCH": "氨；液氨；氨气",
 	"materialEn": "ammonia；ammonia liquefied；ammonia gas",
 	"pageNo": "1",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1,
 	"key": "7664417&1"
 }, {
@@ -15,7 +15,7 @@
 	"materialCH": "3-氨基苯酚；间氨基苯酚；间羟基苯胺；3-氨基酚；间氨基酚",
 	"materialEn": "3-aminophenol；m-aminophenol",
 	"pageNo": "3",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 3,
 	"key": "591275&3"
 }, {
@@ -25,7 +25,7 @@
 	"materialCH": "4-氨基苯酚；对氨基苯酚；4-氨基酚",
 	"materialEn": "4-aminophenol；p-aminophenol",
 	"pageNo": "5",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 5,
 	"key": "123308&5"
 }, {
@@ -35,7 +35,7 @@
 	"materialCH": "2-氨基苯酚；邻氨基苯酚；邻羟基苯胺；2-氨基酚",
 	"materialEn": "2-aminophenol；o-aminophenol",
 	"pageNo": "7",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 7,
 	"key": "95556&7"
 }, {
@@ -45,7 +45,7 @@
 	"materialCH": "4-氨基吡啶；γ-吡啶胺；对氨基吡啶",
 	"materialEn": "4-aminopyridine；γ-pyridylamine",
 	"pageNo": "9",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 9,
 	"key": "504245&9"
 }, {
@@ -55,7 +55,7 @@
 	"materialCH": "氨基磺酸；磺酰胺酸",
 	"materialEn": "sulfamic acid；amidosulfonic acid",
 	"pageNo": "11",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 11,
 	"key": "5329146&11"
 }, {
@@ -65,7 +65,7 @@
 	"materialCH": "4-氨基联苯；对氨基联苯；对苯基苯胺",
 	"materialEn": "4-aminobiphenyl；p-aminophenylbenzene",
 	"pageNo": "13",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 13,
 	"key": "92671&13"
 }, {
@@ -75,7 +75,7 @@
 	"materialCH": "氨溶液；氨水",
 	"materialEn": "ammonia water；aqua ammonia；ammonia,aqueous solution",
 	"pageNo": "15",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 15,
 	"key": "1336216&15"
 }, {
@@ -85,7 +85,7 @@
 	"materialCH": "白磷；黄磷",
 	"materialEn": "phosphorus white；phosphorus yellow",
 	"pageNo": "17",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 17,
 	"key": "12185103&17"
 }, {
@@ -95,7 +95,7 @@
 	"materialCH": "钡；金属钡",
 	"materialEn": "barium",
 	"pageNo": "19",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 19,
 	"key": "7440393&19"
 }, {
@@ -105,7 +105,7 @@
 	"materialCH": "苯",
 	"materialEn": "benzene；phene",
 	"pageNo": "21",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 21,
 	"key": "71432&21"
 }, {
@@ -115,7 +115,7 @@
 	"materialCH": "苯胺；氨基苯；阿尼林油",
 	"materialEn": "aniline；aminobenzene；aniline oil",
 	"pageNo": "24",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 24,
 	"key": "62533&24"
 }, {
@@ -125,7 +125,7 @@
 	"materialCH": "苯酚；石炭酸",
 	"materialEn": "phenol；carbolic acid",
 	"pageNo": "26",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 26,
 	"key": "108952&26"
 }, {
@@ -135,7 +135,7 @@
 	"materialCH": "苯酚钠；苯氧基钠",
 	"materialEn": "sodium phenolate；sodium phenoxide",
 	"pageNo": "28",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 28,
 	"key": "139026&28"
 }, {
@@ -145,7 +145,7 @@
 	"materialCH": "苯磺酰肼；发泡剂 BSH",
 	"materialEn": "benzenesulfonylhydrazine；foaming agent BSH",
 	"pageNo": "30",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 30,
 	"key": "80171&30"
 }, {
@@ -155,7 +155,7 @@
 	"materialCH": "苯磺酰氯；氯化苯磺酰",
 	"materialEn": "benzenesulfonyl chloride；phenylsulfonyl chloride",
 	"pageNo": "32",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 32,
 	"key": "98099&32"
 }, {
@@ -165,7 +165,7 @@
 	"materialCH": "苯基硫醇；苯硫酚；巯基苯；硫代苯酚",
 	"materialEn": "phenyl mercaptan；thiophenol",
 	"pageNo": "34",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 34,
 	"key": "108985&34"
 }, {
@@ -175,7 +175,7 @@
 	"materialCH": "N-苯基-2-萘胺；防老剂 D",
 	"materialEn": "N-phenyl-2-naphthylamine；N-phenyl-betanaphthylamine",
 	"pageNo": "36",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 36,
 	"key": "135886&36"
 }, {
@@ -185,7 +185,7 @@
 	"materialCH": "苯基三氯硅烷；苯代三氯硅烷",
 	"materialEn": "phenyltrichlorosilane；trichlorophenylsilane",
 	"pageNo": "38",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 38,
 	"key": "98135&38"
 }, {
@@ -195,7 +195,7 @@
 	"materialCH": "苯甲腈；苯基氰；氰基苯",
 	"materialEn": "benzonitrile；phenyl cyanide",
 	"pageNo": "40",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 40,
 	"key": "100470&40"
 }, {
@@ -205,7 +205,7 @@
 	"materialCH": "苯甲醚；茴香醚；甲氧基苯",
 	"materialEn": "anisole；phenyl methyl ether",
 	"pageNo": "42",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 42,
 	"key": "100663&42"
 }, {
@@ -215,7 +215,7 @@
 	"materialCH": "苯甲酸甲酯；尼哦油；苯酸甲酯；安息香酸甲酯",
 	"materialEn": "methyl benzoate；benzoic acid methyl ester；niobe oil",
 	"pageNo": "44",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 44,
 	"key": "93583&44"
 }, {
@@ -225,7 +225,7 @@
 	"materialCH": "苯甲酰氯；氯化苯甲酰",
 	"materialEn": "benzoyl chloride；benzenecarbonyl chloride",
 	"pageNo": "46",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 46,
 	"key": "98884&46"
 }, {
@@ -235,7 +235,7 @@
 	"materialCH": "苯肼；苯基联氨",
 	"materialEn": "phenylhydrazine；hydrazinobenzene",
 	"pageNo": "49",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 49,
 	"key": "100630&49"
 }, {
@@ -245,7 +245,7 @@
 	"materialCH": "苯乙腈；苄基氰；苄氰",
 	"materialEn": "phenylacetonitrile；benzyl cyanide",
 	"pageNo": "51",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 51,
 	"key": "140294&51"
 }, {
@@ -255,7 +255,7 @@
 	"materialCH": "2-苯基乙硫醇；苯乙硫醇；苯(基)乙硫醇",
 	"materialEn": "2-phenylethylmercaptan；2-phenylethanethiol",
 	"pageNo": "52",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 52,
 	"key": "4410995&52"
 }, {
@@ -265,7 +265,7 @@
 	"materialCH": "苯乙炔；乙炔苯",
 	"materialEn": "phenylacetylene；acetylene benzene；ethynylbenzene",
 	"pageNo": "54",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 54,
 	"key": "536743&54"
 }, {
@@ -275,7 +275,7 @@
 	"materialCH": "苯乙烯；乙烯基苯；乙烯苯",
 	"materialEn": "phenylethylene；styrene",
 	"pageNo": "56",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 56,
 	"key": "100425&56"
 }, {
@@ -285,7 +285,7 @@
 	"materialCH": "苯乙酰氯；氯化苯乙酰",
 	"materialEn": "phenylacetyl chloride；phenacetyl chloride",
 	"pageNo": "59",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 59,
 	"key": "103800&59"
 }, {
@@ -295,7 +295,7 @@
 	"materialCH": "苄硫醇；α-甲苯硫醇；苯甲硫醇",
 	"materialEn": "benzyl mercaptan；α-toluenethiol；tolyl mercaptan",
 	"pageNo": "61",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 61,
 	"key": "100538&61"
 }, {
@@ -305,7 +305,7 @@
 	"materialCH": "丙胺；正丙胺；1-氨基丙烷",
 	"materialEn": "propylamine；1-aminopropane",
 	"pageNo": "63",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 63,
 	"key": "107108&63"
 }, {
@@ -315,7 +315,7 @@
 	"materialCH": "丙苯；1-苯基丙烷",
 	"materialEn": "n-propylbenzene；1-phenylpropane",
 	"pageNo": "65",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 65,
 	"key": "103651&65"
 }, {
@@ -325,7 +325,7 @@
 	"materialCH": "2-丙醇；异丙醇",
 	"materialEn": "2-propanol；isopropyl alcohol",
 	"pageNo": "67",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 67,
 	"key": "67630&67"
 }, {
@@ -335,7 +335,7 @@
 	"materialCH": "1-丙醇；正丙醇",
 	"materialEn": "1-propyl alcohol；n-propanol；1-propanol",
 	"pageNo": "69",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 69,
 	"key": "71238&69"
 }, {
@@ -345,7 +345,7 @@
 	"materialCH": "1,3-丙二胺；1,3-二氨基丙烷",
 	"materialEn": "1,3-propanediamine；1,3-diaminopropane",
 	"pageNo": "71",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 71,
 	"key": "109762&71"
 }, {
@@ -355,7 +355,7 @@
 	"materialCH": "1,2-丙二胺；1,2-二氨基丙烷",
 	"materialEn": "1,2-propanediamine；1,2-diaminopropane",
 	"pageNo": "73",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 73,
 	"key": "78900&73"
 }, {
@@ -365,7 +365,7 @@
 	"materialCH": "丙二腈；二氰甲烷",
 	"materialEn": "propanedinitrile；dicyanomethane；malononitrile",
 	"pageNo": "75",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 75,
 	"key": "109773&75"
 }, {
@@ -375,7 +375,7 @@
 	"materialCH": "丙二烯",
 	"materialEn": "allene；propadiene；dimethylene methane",
 	"pageNo": "77",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 77,
 	"key": "463490&77"
 }, {
@@ -385,7 +385,7 @@
 	"materialCH": "丙腈；乙基氰",
 	"materialEn": "propionitrile；ethyl cyanide",
 	"pageNo": "79",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 79,
 	"key": "107120&79"
 }, {
@@ -395,7 +395,7 @@
 	"materialCH": "丙醚；正丙醚；二正丙醚",
 	"materialEn": "n-propyl ether；di-n-propyl ether",
 	"pageNo": "81",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 81,
 	"key": "111433&81"
 }, {
@@ -405,7 +405,7 @@
 	"materialCH": "丙醛；正丙醛",
 	"materialEn": "propanal；propionaldehyde",
 	"pageNo": "83",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 83,
 	"key": "123386&83"
 }, {
@@ -415,7 +415,7 @@
 	"materialCH": "丙炔；甲基乙炔",
 	"materialEn": "propyne；methyl acetylene",
 	"pageNo": "85",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 85,
 	"key": "74997&85"
 }, {
@@ -425,7 +425,7 @@
 	"materialCH": "丙酸",
 	"materialEn": "propionic acid；propanoic acid",
 	"pageNo": "87",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 87,
 	"key": "79094&87"
 }, {
@@ -435,7 +435,7 @@
 	"materialCH": "丙酸丁酯；丙酸正丁酯",
 	"materialEn": "n-butyl propionate；butyl propionate",
 	"pageNo": "89",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 89,
 	"key": "590012&89"
 }, {
@@ -445,7 +445,7 @@
 	"materialCH": "丙酸酐",
 	"materialEn": "propionic anhydride；propanoic acid anhydride",
 	"pageNo": "91",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 91,
 	"key": "123626&91"
 }, {
@@ -455,7 +455,7 @@
 	"materialCH": "丙酸甲酯",
 	"materialEn": "methyl propionate；propionic acid；methyl ester",
 	"pageNo": "93",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 93,
 	"key": "554121&93"
 }, {
@@ -465,7 +465,7 @@
 	"materialCH": "丙酸戊酯；丙酸正戊酯",
 	"materialEn": "pentyl propionate；amyl propionate",
 	"pageNo": "95",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 95,
 	"key": "624544&95"
 }, {
@@ -475,7 +475,7 @@
 	"materialCH": "丙酸乙酯",
 	"materialEn": "ethyl propanoate；propionic acid；ethyl ester",
 	"pageNo": "97",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 97,
 	"key": "105373&97"
 }, {
@@ -485,7 +485,7 @@
 	"materialCH": "丙酸异丁酯",
 	"materialEn": "isobutyl propionate；propionic acid isobutyl ester",
 	"pageNo": "99",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 99,
 	"key": "540421&99"
 }, {
@@ -495,7 +495,7 @@
 	"materialCH": "丙酸异戊酯",
 	"materialEn": "isoamyl propionate；isopentyl propanoate",
 	"pageNo": "101",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 101,
 	"key": "105680&101"
 }, {
@@ -505,7 +505,7 @@
 	"materialCH": "丙酮；二甲基(甲)酮；阿西通",
 	"materialEn": "acetone；dimethyl ketone；2-propanone",
 	"pageNo": "103",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 103,
 	"key": "67641&103"
 }, {
@@ -515,7 +515,7 @@
 	"materialCH": "丙烷",
 	"materialEn": "propane；dimethyl methane",
 	"pageNo": "106,1818",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 106,
 	"key": "74986&106"
 }, {
@@ -525,7 +525,7 @@
 	"materialCH": "丙烯；甲基乙烯",
 	"materialEn": "propylene；propene；methylethylene",
 	"pageNo": "107,1818",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 107,
 	"key": "115071&107"
 }, {
@@ -535,7 +535,7 @@
 	"materialCH": "丙烯腈[抑制了的]；乙烯基氰；氰基乙烯",
 	"materialEn": "acrylonitrile(inhibited)；cyanoethylene；2-propenenitrile",
 	"pageNo": "110",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 110,
 	"key": "107131&110"
 }, {
@@ -545,7 +545,7 @@
 	"materialCH": "丙烯醛[抑制了的]；烯丙醛",
 	"materialEn": "acrolein(inhibited)；allylaldehyde；2-propenal",
 	"pageNo": "112",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 112,
 	"key": "107028&112"
 }, {
@@ -555,7 +555,7 @@
 	"materialCH": "丙烯酸",
 	"materialEn": "acrylic acid；2-propenoic acid",
 	"pageNo": "115",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 115,
 	"key": "79107&115"
 }, {
@@ -565,7 +565,7 @@
 	"materialCH": "丙烯酸丁酯[抑制了的]；丙烯酸正丁酯",
 	"materialEn": "n-butyl acrylate(inhibited)；butyl 2-propenoate",
 	"pageNo": "117",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 117,
 	"key": "141322&117"
 }, {
@@ -575,7 +575,7 @@
 	"materialCH": "丙烯酸甲酯[抑制了的]；败脂酸甲酯",
 	"materialEn": "methyl acrylate(inhibited)；methyl propenoate",
 	"pageNo": "119",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 119,
 	"key": "96333&119"
 }, {
@@ -585,7 +585,7 @@
 	"materialCH": "丙烯酸乙酯",
 	"materialEn": "ethyl acrylate；ethyl propenoate",
 	"pageNo": "122",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 122,
 	"key": "140885&122"
 }, {
@@ -595,7 +595,7 @@
 	"materialCH": "丙烯酸异丁酯[抑制了的]",
 	"materialEn": "isobutyl acrylate(inhibited)；isobutyl propenoate",
 	"pageNo": "124",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 124,
 	"key": "106638&124"
 }, {
@@ -605,7 +605,7 @@
 	"materialCH": "丙烯酰胺；2-丙烯酰胺",
 	"materialEn": "acrylamide；2-propenamide",
 	"pageNo": "126",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 126,
 	"key": "79061&126"
 }, {
@@ -615,7 +615,7 @@
 	"materialCH": "次磷酸；卑磷酸",
 	"materialEn": "hypophosphorous acid",
 	"pageNo": "128",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 128,
 	"key": "6303215&128"
 }, {
@@ -625,7 +625,7 @@
 	"materialCH": "次氯酸钙；漂白粉",
 	"materialEn": "calcium hypochlorite；bleaching powder",
 	"pageNo": "130",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 130,
 	"key": "7778543&130"
 }, {
@@ -635,7 +635,7 @@
 	"materialCH": "次氯酸钠溶液",
 	"materialEn": "sodium hypochlorite solution",
 	"pageNo": "132",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 132,
 	"key": "7681529&132"
 }, {
@@ -645,7 +645,7 @@
 	"materialCH": "代森铵；1,2-亚乙基双二硫代氨基甲酸铵；阿巴姆",
 	"materialEn": "ammonium ethylene bisdithiocarbamate；amobam；dithane stainless",
 	"pageNo": "134",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 134,
 	"key": "3566107&134"
 }, {
@@ -655,7 +655,7 @@
 	"materialCH": "代森钠；1,2-亚乙基双二硫代氨基甲酸钠",
 	"materialEn": "nabam；disodium ethylene-1,2-bis-dithiocarbamate；dithane D-14",
 	"pageNo": "136",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 136,
 	"key": "142596&136"
 }, {
@@ -665,7 +665,7 @@
 	"materialCH": "代森锌；1,2-亚乙基双二硫代氨基甲酸锌",
 	"materialEn": "zinc ethylenebis(dithiocarbamate)；ethylenebis(dithiocarbamato) zinc；dithane Z-78；zineb",
 	"pageNo": "138",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 138,
 	"key": "12122677&138"
 }, {
@@ -675,7 +675,7 @@
 	"materialCH": "氮；氮气",
 	"materialEn": "nitrogen；nitrogen gas",
 	"pageNo": "140,1817",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 140,
 	"key": "7727379&140"
 }, {
@@ -685,7 +685,7 @@
 	"materialCH": "敌百虫；二甲基-(2,2,2-三氯-1-羟基乙基)膦酸酯",
 	"materialEn": "O,O-dimethyl(2,2,2-tri-chloro-1-hydroxyethyl) phosphonate；trichlorfon；dipterex",
 	"pageNo": "142",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 142,
 	"key": "52686&142"
 }, {
@@ -695,7 +695,7 @@
 	"materialCH": "敌敌畏；O,O-二甲基-O-(2,2-二氯乙烯基)磷酸酯",
 	"materialEn": "O,O-dimethyl-O-2,2-dichlorovinyl phosphate；dichlorvos；DDVP",
 	"pageNo": "145",
-	"checked": 1,
+	"checked": 0,
 	"pageNoKey": 145,
 	"key": "62737&145"
 }, {
@@ -4995,7 +4995,7 @@
 	"materialCH": "六甲基二硅醚；六甲基氧二硅烷",
 	"materialEn": "hexamethyl disiloxane；hexamethyloxy disilane；bis(trimethylsilyl) ether",
 	"pageNo": "1011",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1011,
 	"key": "107460&1011"
 }, {
@@ -5005,7 +5005,7 @@
 	"materialCH": "六氯苯；全氯代苯；灭黑穗药",
 	"materialEn": "hexachlorobenzene；hexachlorbenzol",
 	"pageNo": "1013",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1013,
 	"key": "118741&1013"
 }, {
@@ -5015,7 +5015,7 @@
 	"materialCH": "六氯乙烷；全氯乙烷；六氯化碳",
 	"materialEn": "hexachloroethane；perchloroethane；carbon hexachloride",
 	"pageNo": "1015",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1015,
 	"key": "67721&1015"
 }, {
@@ -5025,7 +5025,7 @@
 	"materialCH": "2,4,6,2',4',6'-六硝基二苯胺；黑喜尔；六硝基二苯胺；六硝炸药；二苦基胺",
 	"materialEn": "2,4,6,2',4',6'-hexanitrodiphenylamine；hexyl",
 	"pageNo": "1017",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1017,
 	"key": "131737&1017"
 }, {
@@ -5035,7 +5035,7 @@
 	"materialCH": "六亚甲基四胺；乌洛托品",
 	"materialEn": "hexamethylenetetramine；urotropine",
 	"pageNo": "1019",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1019,
 	"key": "100970&1019"
 }, {
@@ -5045,7 +5045,7 @@
 	"materialCH": "六亚甲基亚胺",
 	"materialEn": "hexamethyleneimine；azacycloheptane",
 	"pageNo": "1021",
-	"checked": 2,
+	"checked": 1,
 	"pageNoKey": 1021,
 	"key": "111499&1021"
 }, {
