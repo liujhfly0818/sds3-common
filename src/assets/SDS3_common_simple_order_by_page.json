@@ -5055,7 +5055,7 @@
 	"materialCH": "铝粉[无涂层的]；银粉；铝银粉",
 	"materialEn": "aluminium powder (uncoated)",
 	"pageNo": "1023",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1023,
 	"key": "7429905&1023"
 }, {
@@ -5065,7 +5065,7 @@
 	"materialCH": "氯；氯气",
 	"materialEn": "chlorine",
 	"pageNo": "1025",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1025,
 	"key": "7782505&1025"
 }, {
@@ -5075,7 +5075,7 @@
 	"materialCH": "氯苯；一氯化苯；一氯代苯",
 	"materialEn": "chlorobenzene；monochlorobenzene；phenyl chloride",
 	"pageNo": "1028",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1028,
 	"key": "108907&1028"
 }, {
@@ -5085,7 +5085,7 @@
 	"materialCH": "3-氯丙腈；β-氯丙腈；氰化-β-氯乙烷",
 	"materialEn": "3-chloropropionitrile；β-chloropropionitrile",
 	"pageNo": "1030",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1030,
 	"key": "542767&1030"
 }, {
@@ -5095,7 +5095,7 @@
 	"materialCH": "3-氯丙酸；β-氯(化)丙酸；3-氯代丙酸",
 	"materialEn": "3-chloropropionic acid；β-chloropropion-ic acid",
 	"pageNo": "1032",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1032,
 	"key": "107948&1032"
 }, {
@@ -5105,7 +5105,7 @@
 	"materialCH": "2-氯丙酸；2-氯代丙酸",
 	"materialEn": "2-chloropropionic acid；alpha-chloropropionic acid",
 	"pageNo": "1034",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1034,
 	"key": "598787&1034"
 }, {
@@ -5115,7 +5115,7 @@
 	"materialCH": "2-氯丙烷；异丙基氯；氯化异丙烷",
 	"materialEn": "2-chloropropane；isopropyl chloride",
 	"pageNo": "1036",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1036,
 	"key": "75296&1036"
 }, {
@@ -5125,7 +5125,7 @@
 	"materialCH": "1-氯丙烷；丙基氯；氯(正)丙烷",
 	"materialEn": "1-chloropropane；n-propyl chloride",
 	"pageNo": "1038",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1038,
 	"key": "540545&1038"
 }, {
@@ -5135,7 +5135,7 @@
 	"materialCH": "2-氯丙烯；异丙烯基氯",
 	"materialEn": "2-chloropropene；isopropenyl chloride",
 	"pageNo": "1040",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1040,
 	"key": "557982&1040"
 }, {
