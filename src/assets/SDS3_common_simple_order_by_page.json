@@ -5145,7 +5145,7 @@
 	"materialCH": "3-氯丙烯；α-氯丙烯；烯丙基氯",
 	"materialEn": "3-chloropropene；α-chloropropene；allyl chloride",
 	"pageNo": "1042",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1042,
 	"key": "107051&1042"
 }, {
@@ -5155,7 +5155,7 @@
 	"materialCH": "氯代正丁烷；1-氯丁烷；正丁基氯",
 	"materialEn": "1-chlorobutane；n-butyl chloride",
 	"pageNo": "1044",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1044,
 	"key": "109693&1044"
 }, {
@@ -5165,7 +5165,7 @@
 	"materialCH": "2-氯-1,3-丁二烯[抑制了的]；氯代丁二烯",
 	"materialEn": "2-chloro-1,3-butadiene；chloroprene",
 	"pageNo": "1046",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1046,
 	"key": "126998&1046"
 }, {
@@ -5175,7 +5175,7 @@
 	"materialCH": "2-氯丁烷；仲丁基氯；氯代仲丁烷",
 	"materialEn": "2-chlorobutane；sec-butylchloride",
 	"pageNo": "1049",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1049,
 	"key": "78864&1049"
 }, {
@@ -5185,7 +5185,7 @@
 	"materialCH": "氯化钡",
 	"materialEn": "barium chloride",
 	"pageNo": "1051",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1051,
 	"key": "10361372&1051"
 }, {
@@ -5195,7 +5195,7 @@
 	"materialCH": "氯化苄；苄基氯；α-氯甲苯",
 	"materialEn": "benzyl chloride；alpha-chlorotoluene",
 	"pageNo": "1053",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1053,
 	"key": "100447&1053"
 }, {
@@ -5205,7 +5205,7 @@
 	"materialCH": "氯化镉",
 	"materialEn": "cadmium chloride；cadmium dichloride",
 	"pageNo": "1055",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1055,
 	"key": "10108642&1055"
 }, {
