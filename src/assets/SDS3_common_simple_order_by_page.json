@@ -5215,7 +5215,7 @@
 	"materialCH": "氯化汞；氯化高汞；二氯化汞；升汞",
 	"materialEn": "mercuric chloride；mercury bichloride",
 	"pageNo": "1057",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1057,
 	"key": "7487947&1057"
 }, {
@@ -5225,7 +5225,7 @@
 	"materialCH": "氯化氢[无水]",
 	"materialEn": "hydrogen chloride (anhydrous)",
 	"pageNo": "1059,1807",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1059,
 	"key": "7647010&1059"
 }, {
@@ -5235,7 +5235,7 @@
 	"materialCH": "氯化氰；氯甲腈",
 	"materialEn": "cyanogen chloride；chlorocyan",
 	"pageNo": "1061",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1061,
 	"key": "506774&1061"
 }, {
@@ -5245,7 +5245,7 @@
 	"materialCH": "氯化硒；二氯化二硒",
 	"materialEn": "selenium chloride；diselenium dichloride",
 	"pageNo": "1063",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1063,
 	"key": "10025680&1063"
 }, {
@@ -5255,7 +5255,7 @@
 	"materialCH": "氯化溴；溴化氯",
 	"materialEn": "bromine chloride；chlorine bromide",
 	"pageNo": "1065",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1065,
 	"key": "13863417&1065"
 }, {
