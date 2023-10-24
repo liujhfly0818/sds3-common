@@ -4,6 +4,7 @@ import { useUserStore } from "../stores/parser";
 const useStore = useUserStore();
 const { initObj, initCasno, initObjSimple } = storeToRefs(useStore);
 
+
 import OneMaterial from "../components/OneMaterial.vue";
 import {
   onBeforeMount,
