@@ -525,7 +525,7 @@
 	"materialCH": "丙烯；甲基乙烯",
 	"materialEn": "propylene；propene；methylethylene",
 	"pageNo": "107,1818",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 107,
 	"key": "115071&107"
 }, {
@@ -5265,7 +5265,7 @@
 	"materialCH": "氯化亚砜；亚硫酰(二)氯；二氯氧化硫",
 	"materialEn": "thionyl chloride；sulfurous oxychloride；sulfur chloride oxide",
 	"pageNo": "1067",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1067,
 	"key": "7719097&1067"
 }, {
@@ -5275,7 +5275,7 @@
 	"materialCH": "氯化乙基汞；西力生；氯乙基汞",
 	"materialEn": "mercuric ethyl chloride；ceresan",
 	"pageNo": "1069",
-	"checked": 0,
+	"checked": 1,
 	"pageNoKey": 1069,
 	"key": "107277&1069"
 }, {
